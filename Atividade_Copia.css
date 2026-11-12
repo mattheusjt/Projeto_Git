@@ -1,0 +1,227 @@
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 5px solid #FFFFFF;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: baseline;
+    width: 70%;
+    text-align: center;
+}
+
+#menu li {
+    position: relative;
+    text-align: center;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+#logo {
+    width: 80px;
+    max-width: 80px;
+    min-width: 50px;
+    height: auto;
+}
+
+.rede {
+    display: flex;
+    width: 30px;
+}
+
+
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+a {
+    color: #90432E;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 15px;
+    border: 2px solid #F7F7F7;
+    padding: 10px 20px;
+    background-color: #F7F7F7;
+    font-family: Arial, ;
+
+}
+
+#section1 {
+    display: flex;
+    background-color: #F7F7F7;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://static.wixstatic.com/media/d8df67_671b3ca28e8144088e89574e796d0c30~mv2.jpg/v1/fill/w_1225,h_611,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d8df67_671b3ca28e8144088e89574e796d0c30~mv2.jpg");
+    flex-direction: column;
+    background-image: linear-gradient(rgba(355, 355, 355, 0.5), rgba(355, 355, 355, 0.5)), url('https://static.wixstatic.com/media/d8df67_671b3ca28e8144088e89574e796d0c30~mv2.jpg/v1/fill/w_1225,h_611,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/d8df67_671b3ca28e8144088e89574e796d0c30~mv2.jpg');
+}
+
+#section2 {
+    background-color: #F7F7F7;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+#section3 {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+#section4{
+    display: flex;
+    background-color: #F7F7F7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#texto1 {
+    font-size: 50px;
+    color: #8B0000;
+}
+
+#texto2 {
+    font-size: 25px;
+    color: #606060;
+}
+
+#texto3 {
+    font-size: 15px;
+    color: #8B0749;
+}
+
+#texto4 button {
+
+    background-color: #AC4949;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: backgroud 0.3s ease, transform 0.3s ease;
+}
+
+#texto5 {
+    font-size: 40px;
+    color: #8B0749;
+}
+
+#texto6 {
+    font-size: 25px;
+    color: #606060;
+}
+
+#texto7 {
+    font-size: 20px;
+    color: #8B0749;
+}
+
+#texto8 {
+    font-size: 35px;
+    color: #8B0749;
+}
+#texto9{
+    justify-content: center;
+    font-size: 35px;
+    color: #8B0749;
+}
+#texto10{
+    justify-content: center;
+    font-size: 20px;
+    color: #8B0749;
+}
+
+#section2 span {
+    border: 2px solid gray;
+}
+#cursos {
+    color: #8B0000;
+    max-width: 100px;
+    display: flex;
+    flex-direction: row;
+    display: grid ;
+    grid-template-columns:  2fr 2fr 2fr 2fr 2fr 2fr ;
+    grid-template-rows: 20px  20px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.curso{
+    border: 1px solid #8B0000;
+    min-width: 150px;
+    max-width: 250px;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 10px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="submit"],
+textarea {
+    display: flex;
+    padding: 10px;
+    width: 140px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+footer {
+    background-color:#FFFFFF;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+#div1{
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+a#whatsapp_fixo img {
+    width: 85px;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    padding: 15px;
+}
+#enviar{
+    background-color: #8B0000;
+    color: #FFFFFF;
+}
+
+input {
+    margin-bottom: 10px;
+}
